@@ -1,0 +1,25 @@
+.carritoContenedor{
+    background-color: transparent;
+    border: none;
+}
+.carrito{
+    width: 70px;
+}
+.carrito img{
+    width: 60px;
+}
+.cartNumber-contenedor{
+    width: 22px;
+    height: 22px;
+    background-color: #D6FFDE;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0.7rem;
+}
+.cartNumber{
+    font-weight: bold;
+    font-size: 18px;
+}

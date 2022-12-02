@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20vw;
+    background-color: #70FF8D;
+    padding: 2rem;
+    z-index: 1;
+    height: 100vh;
+    transition: 0.7s;
+    -webkit-box-shadow: inset 0px 0px 300px 50px rgba(0,0,0,0.55);
+    -moz-box-shadow: inset 0px 0px 300px 50px rgba(0,0,0,0.55);
+    box-shadow: inset 0px 0px 300px 50px rgba(0,0,0,0.55);
+    border: 1px rgba(0, 0, 0, 0.727) solid;
+}
+.itemListContainer h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 1.5px #ffffff;
+    font-family: 'Macondo', cursive;
+    font-size: 2.5rem;
+}
+.close-button-container{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   width: 100%;
+}
+.close-button{
+    background-color: transparent;
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+   
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.navBar-container{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background:radial-gradient( #70FF8D,rgb(27, 27, 27) );
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    padding-left: 5%;
+    padding-right: 3%;
+}
+.titulo{
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 2px 2px 1px black;
+}
+.input-contenedor{
+    padding-top: 10px;
+    max-width: 500px;
+}
+.btn-search{
+    box-shadow: 1px 1px 0.5px 1px rgba(19, 19, 19, 0.708);
+}
+.btn-search img{
+    width: 20px;
+}
